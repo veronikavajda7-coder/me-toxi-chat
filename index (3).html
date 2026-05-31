@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ТОКСИЧНИЙ | ЧАТ — Telegram Premium та Telegram Stars за найвигіднішими цінами. Швидко, безпечно, вигідно." />
+  <meta name="keywords" content="Telegram Premium, Telegram Stars, купити преміум, зірки телеграм, дешево, Україна" />
+  <meta name="author" content="ТОКСИЧНИЙ | ЧАТ" />
+  <meta property="og:title" content="Telegram Premium та Stars | ТОКСИЧНИЙ | ЧАТ" />
+  <meta property="og:description" content="Купити Telegram Premium та Stars за найкращими цінами. Миттєва видача, 24/7 підтримка." />
+  <meta property="og:type" content="website" />
+  <title>Telegram Premium та Stars | ТОКСИЧНИЙ | ЧАТ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Particles Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Floating Stars -->
+  <div class="falling-stars" id="falling-stars"></div>
+
+  <!-- Floating Telegram Button -->
+  <a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="float-tg" aria-label="Написати адміністратору">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 1 0 23.888 12 12 12 0 0 0 11.944 0zm3.02 17.8s-.404.143-.617-.173l-2.36-3.015-2.73 2.41-.064-3.83L15.5 7.5 7.72 12.44l-3.286-1.098s-.497-.175-.497-.575c0-.33.497-.517.497-.517l12.6-5.09s1.03-.35 1.03.517l-2.1 12.12z"/></svg>
+    <span>Написати</span>
+  </a>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="logo-toxic">ТОКСИЧНИЙ</span>
+        <span class="logo-sep">|</span>
+        <span class="logo-chat">ЧАТ</span>
+      </div>
+      <div class="nav-links">
+        <a href="#premium">Premium</a>
+        <a href="#stars">Stars</a>
+        <a href="#calc">Калькулятор</a>
+        <a href="#reviews">Відгуки</a>
+        <a href="https://t.me/tamgdezakatt" target="_blank" class="nav-cta">Замовити</a>
+      </div>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#premium">Premium</a>
+      <a href="#stars">Stars</a>
+      <a href="#calc">Калькулятор</a>
+      <a href="#reviews">Відгуки</a>
+      <a href="https://t.me/tamgdezakatt" target="_blank" class="nav-cta">Замовити</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-glow hero-glow-3"></div>
+    <div class="hero-content reveal">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Преміальний сервіс 2026
+      </div>
+      <h1 class="hero-title">
+        Telegram Premium<br/>та Stars за<br/>
+        <span class="gradient-text">найвигіднішими цінами</span>
+      </h1>
+      <p class="hero-sub">Швидко. Безпечно. Вигідно.<br/>Отримуйте Premium та Stars за кілька хвилин без зайвих переплат.</p>
+      <div class="hero-buttons">
+        <a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-primary">
+          <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon"><path d="M11.944 0A12 12 0 1 0 23.888 12 12 12 0 0 0 11.944 0zm3.02 17.8s-.404.143-.617-.173l-2.36-3.015-2.73 2.41-.064-3.83L15.5 7.5 7.72 12.44l-3.286-1.098s-.497-.175-.497-.575c0-.33.497-.517.497-.517l12.6-5.09s1.03-.35 1.03.517l-2.1 12.12z"/></svg>
+          Зв'язатися з адміністратором
+        </a>
+        <a href="#premium" class="btn-secondary">Переглянути ціни</a>
+      </div>
+
+    </div>
+    <div class="hero-visual reveal delay-2">
+      <div class="tg-card-3d">
+        <div class="tg-orb tg-orb-1">
+          <svg viewBox="0 0 120 120" fill="none" class="tg-logo-big">
+            <circle cx="60" cy="60" r="60" fill="url(#g1)"/>
+            <path d="M85 38L25 60l20 8 10 20 8-14 18 14 4-50z" fill="white" opacity="0.95"/>
+            <defs>
+              <linearGradient id="g1" x1="0" y1="0" x2="120" y2="120">
+                <stop offset="0%" stop-color="#6C2BFF"/>
+                <stop offset="100%" stop-color="#8B5CFF"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="tg-orb-label">Premium</div>
+        </div>
+        <div class="tg-orb tg-orb-2">
+          <div class="star-icon-big">⭐</div>
+          <div class="tg-orb-label">Stars</div>
+        </div>
+        <div class="orbit-ring orbit-ring-1"></div>
+        <div class="orbit-ring orbit-ring-2"></div>
+        <div class="mini-star ms1">✦</div>
+        <div class="mini-star ms2">★</div>
+        <div class="mini-star ms3">✦</div>
+        <div class="mini-star ms4">✧</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="benefits reveal" id="benefits">
+    <div class="section-label">Чому обирають нас</div>
+    <h2 class="section-title">Переваги сервісу</h2>
+    <div class="benefits-grid">
+      <div class="benefit-card reveal delay-1">
+        <div class="benefit-icon">⚡</div>
+        <h3>Миттєва видача</h3>
+        <p>Отримуйте замовлення протягом кількох хвилин після оплати</p>
+      </div>
+      <div class="benefit-card reveal delay-2">
+        <div class="benefit-icon">🔒</div>
+        <h3>Безпечна покупка</h3>
+        <p>Всі транзакції захищені, ваші дані залишаються конфіденційними</p>
+      </div>
+      <div class="benefit-card reveal delay-3">
+        <div class="benefit-icon">💎</div>
+        <h3>Вигідні ціни</h3>
+        <p>Найнижчі ціни на ринку — значно дешевше, ніж в офіційному додатку</p>
+      </div>
+      <div class="benefit-card reveal delay-4">
+        <div class="benefit-icon">🛡</div>
+        <h3>Надійний сервіс</h3>
+        <p>Перевірений сервіс з сотнями успішних замовлень щомісяця</p>
+      </div>
+      <div class="benefit-card reveal delay-1">
+        <div class="benefit-icon">⭐</div>
+        <h3>Постійні клієнти</h3>
+        <p>Більше половини наших клієнтів повертаються знову і знову</p>
+      </div>
+      <div class="benefit-card reveal delay-2">
+        <div class="benefit-icon">📱</div>
+        <h3>Підтримка 24/7</h3>
+        <p>Адміністратор завжди онлайн і готовий допомогти вам у будь-який час</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREMIUM -->
+  <section class="premium-section reveal" id="premium">
+    <div class="section-label">Підписки</div>
+    <h2 class="section-title">Telegram <span class="gradient-text">Premium</span></h2>
+    <p class="section-desc">Преміальні можливості Telegram без обмежень — великі файли, ексклюзивні стікери, прискорені завантаження</p>
+    <div class="premium-grid">
+      <div class="premium-card reveal delay-1">
+        <div class="premium-badge-top">Популярний</div>
+        <div class="premium-icon">
+          <svg viewBox="0 0 60 60" fill="none">
+            <circle cx="30" cy="30" r="30" fill="url(#pg1)"/>
+            <path d="M42 19L18 30l10 4 5 10 4-7 9 7 2-25z" fill="white" opacity="0.9"/>
+            <defs>
+              <linearGradient id="pg1" x1="0" y1="0" x2="60" y2="60">
+                <stop offset="0%" stop-color="#6C2BFF"/>
+                <stop offset="100%" stop-color="#B18CFF"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <h3>Premium 3 місяці</h3>
+        <div class="premium-price"><span class="price-amount">799</span><span class="price-cur">грн</span></div>
+        <ul class="premium-features">
+          <li>✦ Завантаження файлів до 4 ГБ</li>
+          <li>✦ Ексклюзивні стікери та емодзі</li>
+          <li>✦ Відсутність реклами</li>
+          <li>✦ Прискорені завантаження</li>
+          <li>✦ Голосові повідомлення в текст</li>
+        </ul>
+        <a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-primary full-width">Замовити</a>
+      </div>
+      <div class="premium-card premium-card-featured reveal delay-2">
+        <div class="premium-badge-top">Найвигідніше</div>
+        <div class="premium-icon">
+          <svg viewBox="0 0 60 60" fill="none">
+            <circle cx="30" cy="30" r="30" fill="url(#pg2)"/>
+            <path d="M42 19L18 30l10 4 5 10 4-7 9 7 2-25z" fill="white" opacity="0.9"/>
+            <defs>
+              <linearGradient id="pg2" x1="0" y1="0" x2="60" y2="60">
+                <stop offset="0%" stop-color="#8B5CFF"/>
+                <stop offset="100%" stop-color="#6C2BFF"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <h3>Premium 6 місяців</h3>
+        <div class="premium-price"><span class="price-amount">1199</span><span class="price-cur">грн</span></div>
+        <ul class="premium-features">
+          <li>✦ Завантаження файлів до 4 ГБ</li>
+          <li>✦ Ексклюзивні стікери та емодзі</li>
+          <li>✦ Відсутність реклами</li>
+          <li>✦ Прискорені завантаження</li>
+          <li>✦ Голосові повідомлення в текст</li>
+          <li>✦ Збережений чат та архів</li>
+        </ul>
+        <a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-primary full-width">Замовити</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STARS -->
+  <section class="stars-section reveal" id="stars">
+    <div class="section-label">Зірки</div>
+    <h2 class="section-title">Telegram <span class="gradient-text">Stars</span></h2>
+    <p class="section-desc">Підтримуйте улюблених авторів, купуйте контент та розблоковуйте можливості бота</p>
+    <div class="stars-grid">
+      <div class="star-card reveal delay-1"><div class="sc-stars">100 ⭐</div><div class="sc-price">95 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-2"><div class="sc-stars">150 ⭐</div><div class="sc-price">130 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-3"><div class="sc-stars">200 ⭐</div><div class="sc-price">170 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-4"><div class="sc-stars">250 ⭐</div><div class="sc-price">220 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-1"><div class="sc-stars">300 ⭐</div><div class="sc-price">250 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-2"><div class="sc-stars">350 ⭐</div><div class="sc-price">290 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-3"><div class="sc-stars">400 ⭐</div><div class="sc-price">320 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-4"><div class="sc-stars">450 ⭐</div><div class="sc-price">370 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-1"><div class="sc-stars">500 ⭐</div><div class="sc-price">390 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-2"><div class="sc-stars">550 ⭐</div><div class="sc-price">420 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-3"><div class="sc-stars">600 ⭐</div><div class="sc-price">460 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-4"><div class="sc-stars">650 ⭐</div><div class="sc-price">500 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-1"><div class="sc-stars">700 ⭐</div><div class="sc-price">530 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-2"><div class="sc-stars">750 ⭐</div><div class="sc-price">570 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-3"><div class="sc-stars">800 ⭐</div><div class="sc-price">620 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-4"><div class="sc-stars">850 ⭐</div><div class="sc-price">640 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-1"><div class="sc-stars">900 ⭐</div><div class="sc-price">680 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+      <div class="star-card reveal delay-2"><div class="sc-stars">950 ⭐</div><div class="sc-price">730 грн</div><a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-star">Замовити</a></div>
+    </div>
+  </section>
+
+  <!-- CALCULATOR -->
+  <section class="calc-section reveal" id="calc">
+    <div class="section-label">Інструмент</div>
+    <h2 class="section-title">Калькулятор <span class="gradient-text">Stars</span></h2>
+    <div class="calc-wrapper">
+      <div class="calc-box">
+        <label class="calc-label">Кількість Stars</label>
+        <div class="calc-input-wrap">
+          <span class="calc-star-ico">⭐</span>
+          <input type="number" id="calc-input" class="calc-input" placeholder="Введіть кількість" min="1" max="9999" />
+        </div>
+        <div class="calc-result" id="calc-result">
+          <div class="calc-res-row">
+            <span class="calc-res-label">Вартість:</span>
+            <span class="calc-res-val" id="calc-price">—</span>
+          </div>
+          <div class="calc-res-row">
+            <span class="calc-res-label">Найкращий пакет:</span>
+            <span class="calc-res-val" id="calc-pack">—</span>
+          </div>
+          <div class="calc-res-row">
+            <span class="calc-res-label">Економія:</span>
+            <span class="calc-res-val calc-save" id="calc-save">—</span>
+          </div>
+          <a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-primary full-width" id="calc-order" style="display:none">Замовити зараз</a>
+        </div>
+      </div>
+      <div class="calc-info">
+        <div class="calc-info-title">💡 Як розраховується ціна?</div>
+        <p>Ми підбираємо найближчий доступний пакет Stars та показуємо вам найвигіднішу пропозицію. Чим більший пакет — тим нижча ціна за одну зірку.</p>
+        <div class="calc-per-star">
+          <div class="cps-item"><span>100 ⭐</span><span>0.95 грн/⭐</span></div>
+          <div class="cps-item best"><span>500 ⭐</span><span>0.78 грн/⭐</span></div>
+          <div class="cps-item best"><span>950 ⭐</span><span>0.77 грн/⭐</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews-section reveal" id="reviews">
+    <div class="section-label">Відгуки</div>
+    <h2 class="section-title">Що кажуть <span class="gradient-text">клієнти</span></h2>
+    <div class="reviews-grid">
+      <div class="review-card glass reveal delay-1">
+        <div class="review-top">
+          <div class="review-avatar">Y</div>
+          <div class="review-author">
+            <div class="review-name">Yanochka 💚🐻</div>
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          </div>
+          <div class="review-verified">✓ Перевірено</div>
+        </div>
+        <div class="review-title">«Все класно, зірки прийшли, і ціни приємні»</div>
+        <p class="review-text">Замовляла зірки вперше і залишилась дуже задоволена! Все прийшло швидко, без затримок. Зірки зарахували одразу, без жодних проблем. Ціни приємні, значно нижчі, ніж в офіційному додатку. Обов'язково буду замовляти ще!</p>
+        <div class="review-date">Травень 2026</div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- HOW IT WORKS -->
+  <section class="how-section reveal" id="how">
+    <div class="section-label">Процес</div>
+    <h2 class="section-title">Як це <span class="gradient-text">працює</span></h2>
+    <div class="steps-grid">
+      <div class="step-item reveal delay-1">
+        <div class="step-num">01</div>
+        <div class="step-icon">🛍</div>
+        <h3>Оберіть товар</h3>
+        <p>Виберіть потрібний пакет Premium або кількість Stars</p>
+        <div class="step-arrow">→</div>
+      </div>
+      <div class="step-item reveal delay-2">
+        <div class="step-num">02</div>
+        <div class="step-icon">💬</div>
+        <h3>Напишіть адміністратору</h3>
+        <p>Зв'яжіться з нами у Telegram і вкажіть що хочете замовити</p>
+        <div class="step-arrow">→</div>
+      </div>
+      <div class="step-item reveal delay-3">
+        <div class="step-num">03</div>
+        <div class="step-icon">💳</div>
+        <h3>Оплатіть замовлення</h3>
+        <p>Зручна оплата — отримайте реквізити від адміністратора</p>
+        <div class="step-arrow">→</div>
+      </div>
+      <div class="step-item reveal delay-4">
+        <div class="step-num">04</div>
+        <div class="step-icon">🎉</div>
+        <h3>Отримайте Premium або Stars</h3>
+        <p>Миттєве зарахування після підтвердження оплати</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section reveal" id="cta">
+    <div class="cta-glow cta-glow-1"></div>
+    <div class="cta-glow cta-glow-2"></div>
+    <div class="cta-inner">
+      <div class="cta-badge">🚀 Готові до старту?</div>
+      <h2 class="cta-title">Готові отримати Telegram<br/><span class="gradient-text">Premium або Stars?</span></h2>
+      <p class="cta-sub">Приєднуйтесь до сотень задоволених клієнтів. Замовлення — за лічені хвилини.</p>
+      <a href="https://t.me/tamgdezakatt" target="_blank" rel="noopener" class="btn-primary btn-large">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon"><path d="M11.944 0A12 12 0 1 0 23.888 12 12 12 0 0 0 11.944 0zm3.02 17.8s-.404.143-.617-.173l-2.36-3.015-2.73 2.41-.064-3.83L15.5 7.5 7.72 12.44l-3.286-1.098s-.497-.175-.497-.575c0-.33.497-.517.497-.517l12.6-5.09s1.03-.35 1.03.517l-2.1 12.12z"/></svg>
+        Написати адміністратору
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-toxic">ТОКСИЧНИЙ</span>
+        <span class="logo-sep">|</span>
+        <span class="logo-chat">ЧАТ</span>
+      </div>
+      <div class="footer-links">
+        <a href="#premium">Premium</a>
+        <a href="#stars">Stars</a>
+        <a href="#calc">Калькулятор</a>
+        <a href="https://t.me/tamgdezakatt" target="_blank">Telegram</a>
+      </div>
+      <div class="footer-copy">© 2026 ТОКСИЧНИЙ | ЧАТ. Всі права захищені.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
